@@ -12,4 +12,7 @@ while True:
     products.append([name, price]) # 4, 5 簡寫 
 print(products)
 
-products[0][1] # 大清單[0] 裡面的小清單 [1]
+# products[0][1] # 大清單[0] 裡面的小清單 [1]
+
+for p in products:
+    print(p[0], '的價格是',p[1])
